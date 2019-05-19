@@ -5,30 +5,30 @@
  */
 package dao;
 
-import br.edu.ifpb.domain.Integrante;
+import br.edu.ifpb.domain.Banda;
 import java.sql.SQLException;
 import java.util.List;
 
 
-public class IntegrandeDAOImpl implements IntegrandeDAO {
+public class BandaDAOImpl implements BandaDAO {
 
     @Override
-    public void cadastrar(Integrante object) throws SQLException {
+    public void cadastrar(Banda object) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void excluir(Integrante object) throws SQLException {
+    public void excluir(Banda object) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void atualizar(Integrante object) throws SQLException {
+    public void atualizar(Banda object) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public List<Integrante> listar() throws SQLException {
+    public List<Banda> listar() throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

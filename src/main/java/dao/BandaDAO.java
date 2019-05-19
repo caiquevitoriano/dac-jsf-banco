@@ -5,12 +5,12 @@
  */
 package dao;
 
-import br.edu.ifpb.domain.Integrante;
+import br.edu.ifpb.domain.Banda;
 
 /**
  *
  * @author caique
  */
-public interface IntegrandeDAO extends Dao<Integrante> {
+public interface BandaDAO extends Dao<Banda>{
     
 }
